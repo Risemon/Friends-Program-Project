@@ -21,7 +21,9 @@
                 display: inline block;
                 font-size: 16px;
             }
-        }</style>
+        }
+        </style>
         <a href="Create-Member.html" class="Button">Create Member</a>
+        <a href="Delete-Member.html" class="Button">Delete Member</a>
     </body>
 </html>
