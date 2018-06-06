@@ -5,25 +5,23 @@
         <meta name="viewport" content="width=device-width">
         <title>Friends Program Admin Homepage</title>
         <link href="index.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body style="background-color:#aadae0;">
-        <script src="index.js"></script>
-        <h1 style="background-color:#fafafa;text-align:center; font:45px Helvetica, sans-serif;"></h1>
         <style>
-        a:active{
             .button{
-                background-color:#fafafa;
+                background-color:#ffffff;
                 border: 2px solid #000000;
-                color: white;
-                padding: 15px 32px;
+                color: black;
+                padding: 10px 24px;
                 text-align: center;
                 text-decoration: none;
                 display: inline block;
                 font-size: 16px;
             }
-        }
         </style>
-        <a href="Create-Member.html" class="Button">Create Member</a>
-        <a href="Delete-Member.html" class="Button">Delete Member</a>
+    </head>
+    <body style="background-color:#aadae0;">
+        <script src="index.js"></script>
+        <h1 style="background-color:#fafafa;text-align:center; font:45px Helvetica, sans-serif;">Admin Programs</h1>
+        <a href="Create-Member.html" class="button">Create Member</a>
+        <a href="Delete-Member.html" class="button">Delete Member</a>
     </body>
 </html>
