@@ -8,6 +8,12 @@
   </head>
   <body style="background-color:#aadae0;">
     <script src="Admin-Database.js">
+        var con = mysql.createConnection({
+        host: "localhost",
+        user: "Admin",
+        password: "2yq8ag9fa7hl5bk",
+        database: "Admin"
+        });
         con.connect(function(err) {
             if (err) throw err;
             console.log("Connected!");
@@ -27,3 +33,4 @@
     </fieldset>
   </body>
 </html>
+
